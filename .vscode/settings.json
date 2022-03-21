@@ -36,7 +36,7 @@
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "none",
 	"workbench.activityBar.visible": true,
-	"window.zoomLevel": 0.31,
+	"window.zoomLevel": 0,
 	//NPM //
 	"npm.packageManager": "yarn",
 	// FILES//

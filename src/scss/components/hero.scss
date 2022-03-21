@@ -1,6 +1,6 @@
 .section-hero {
 	background-image: url(../images/common/hero.svg);
-	height: 650px;
+
 	background-repeat: no-repeat;
 	background-position: right 35% top;
 }
@@ -44,13 +44,28 @@
 }
 
 .description-school {
+	padding-top: 232px;
 	display: flex;
 	.description-list {
 		display: flex;
-	}
-}
+		.description-items {
+			margin-left: 32px;
+			&:first-child {
+				margin-left: 0;
+			}
+			.description-logo {
+				height: 71px;
+			}
 
-.description-logo {
-	width: 72px;
-	height: 71px;
+			.p-descriprion {
+				font-family: "Montserrat";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 29px;
+				text-align: center;
+				color: #4d4d4d;
+			}
+		}
+	}
 }
