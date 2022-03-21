@@ -1,0 +1,56 @@
+.section-hero {
+	background-image: url(../images/common/hero.svg);
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: right 35% top;
+}
+
+.tittle-hero {
+	margin: 0;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	width: 728px;
+	padding-top: 187px;
+}
+
+.p-hero {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	width: 658px;
+	padding-top: 10px;
+
+	color: #4d4d4d;
+}
+.btn-hero {
+	padding-top: 44px;
+
+	.a-hero {
+		font-family: "Raleway";
+
+		font-weight: 600;
+		font-size: 24px;
+
+		text-align: center;
+		text-transform: uppercase;
+		background: #fcaa23;
+		border-radius: 42px;
+		padding: 28px 41px;
+	}
+}
+
+.description-school {
+	display: flex;
+	.description-list {
+		display: flex;
+	}
+}
+
+.description-logo {
+	width: 72px;
+	height: 71px;
+}

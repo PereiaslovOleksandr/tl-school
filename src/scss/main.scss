@@ -1,0 +1,13 @@
+@import "./base/normalize.scss";
+@import "./base/global.scss";
+@import "./base/fonts.scss";
+@import "./generated/smartgrid";
+@import "./base/variables";
+@import "./base/functions";
+@import "./base/mixins";
+@import "./components/header.scss";
+@import "./components/hero.scss";
+body {
+	width: 100%;
+	font-family: "Raleway";
+}

@@ -1,0 +1,41 @@
+.page-header {
+	background: #ffffff;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+	padding-bottom: 18px;
+	padding-top: 19px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.logo {
+		width: 118px;
+		height: 85px;
+	}
+	.nav-menu {
+		font-family: "Montserrat";
+		font-weight: 500;
+		font-size: 18px;
+
+		.nav-list {
+			display: flex;
+			.link-items {
+				margin-left: 57px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+			.custom-font {
+				font-family: "Raleway";
+				font-weight: 600;
+				font-size: 16px;
+				text-align: center;
+				color: #1a1a1a;
+
+				background: #fcaa23;
+				border-radius: 42px;
+				padding: 17px 20px;
+			}
+		}
+	}
+}

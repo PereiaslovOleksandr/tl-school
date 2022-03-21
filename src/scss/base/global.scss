@@ -1,0 +1,40 @@
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0);
+}
+
+.container {
+	width: 1216px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* outline: 2px solid #ff7518; */
+}
+
+section {
+	margin-top: 0;
+}
+
+ul {
+	/* display: flex; */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
