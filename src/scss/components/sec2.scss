@@ -1,0 +1,126 @@
+.page-sec2 {
+	background-image: url(../images/common/line.jpg);
+	background-size: 1218px;
+	background-repeat: no-repeat;
+}
+
+.text-sec2 {
+	display: grid;
+	justify-content: end;
+	padding-top: 40px;
+
+	padding-right: 40px;
+
+	.h3-sec2 {
+		padding-bottom: 35px;
+		margin: 0;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 56px;
+		color: #1a1a1a;
+	}
+	.p1-sec2 {
+		margin: 0;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+
+		color: #4d4d4d;
+	}
+	.p2-sec2 {
+		padding-top: 35px;
+		padding-left: 210px;
+
+		margin: 0;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+
+		color: #4d4d4d;
+	}
+}
+
+.buy-sec2 {
+	display: flex;
+	.text-block-one {
+		text-align: center;
+		margin-bottom: 24px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		/* identical to box height */
+
+		color: #1a1a1a;
+	}
+	.p-text-block-one {
+		padding-bottom: 16px;
+		position: relative;
+		margin: 0;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+
+		color: #4d4d4d;
+		&::before {
+			content: "";
+			background-image: url(../images/common/lamp.svg);
+			background-repeat: no-repeat;
+			margin-right: 24px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-position-x: 13px;
+		}
+	}
+	div {
+		margin-right: 60px;
+		&:last-child {
+			margin-right: 0;
+		}
+		a {
+			background: #fcaa23;
+			border-radius: 42px;
+			padding: 28px 35px;
+			width: 300px;
+		}
+	}
+}
+
+.buy-block1 {
+	background: #f9f9f9;
+	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.buy-block2 {
+	background: #f9f9f9;
+	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.buy-block3 {
+	background: #f9f9f9;
+	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.btn-pay {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.pd-box-text {
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
