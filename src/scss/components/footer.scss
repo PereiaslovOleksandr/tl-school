@@ -1,0 +1,85 @@
+.footer-color {
+	background-color: #171650;
+	height: 535px;
+	color: white;
+}
+
+.size-svg {
+	width: 44px;
+	height: 46px;
+	margin-right: 30px;
+}
+
+.footer-add {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item-contact {
+	color: var(--secondary-color-text);
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 400;
+}
+.contact .item-contact + .item-contact {
+	display: block;
+	padding-top: 55px;
+	align-items: center;
+}
+
+.footer-logo {
+	padding-top: 87px;
+	width: 171px;
+	height: 41px;
+}
+.item-company {
+	text-align: center;
+	display: block;
+	padding-top: 150px;
+
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--secondary-color-text);
+}
+
+.item-contact::before {
+	content: "";
+	background-image: url(./images/viber.svg);
+	width: 44px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: -25%;
+	transform: translateY(-15%);
+	border: none;
+	text-align: center;
+}
+.contact {
+	position: relative;
+	padding-top: 91px;
+}
+
+.text-add {
+	color: var(--secondary-color-text);
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 400;
+	margin-bottom: 50px;
+	text-align: right;
+}
+.add {
+	padding-top: 91px;
+}
+
+.search {
+	text-align: center;
+}
+
+.svg-flex {
+	transform: translateX(25%);
+}
