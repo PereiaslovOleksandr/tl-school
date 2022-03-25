@@ -5,9 +5,8 @@
 }
 
 .size-svg {
-	width: 44px;
-	height: 46px;
-	margin-right: 30px;
+	height: 20px;
+	margin-right: 20px;
 }
 
 .footer-add {
@@ -16,15 +15,20 @@
 }
 
 .item-contact {
-	color: var(--secondary-color-text);
-	font-size: 20px;
-	line-height: 1.4;
-	font-weight: 400;
-}
-.contact .item-contact + .item-contact {
-	display: block;
-	padding-top: 55px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	/* or 25px */
+
+	display: flex;
 	align-items: center;
+
+	color: #ffffff;
+	a {
+		margin-right: 25px;
+	}
 }
 
 .footer-logo {
@@ -37,41 +41,59 @@
 	display: block;
 	padding-top: 150px;
 
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 1.5;
-	color: var(--secondary-color-text);
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+
+	color: #e1dfdf;
 }
 
 .item-contact::before {
 	content: "";
-	background-image: url(./images/viber.svg);
-	width: 44px;
-	height: 40px;
+	background-image: url(../images/common/phone.svg);
+	width: 24px;
+	height: 25px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	display: block;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	left: -25%;
-	transform: translateY(-15%);
-	border: none;
-	text-align: center;
+	margin-right: 20px;
 }
 .contact {
 	position: relative;
 	padding-top: 91px;
 }
-
-.text-add {
-	color: var(--secondary-color-text);
-	font-size: 20px;
-	line-height: 1.4;
-	font-weight: 400;
-	margin-bottom: 50px;
-	text-align: right;
+.text-add1::before {
+	content: "";
+	background-image: url(../images/common/home.svg) !important;
+	width: 24px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
+.text-add {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	/* or 25px */
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+
+	color: #ffffff;
+	&::before {
+		content: "";
+		background-image: url(../images/common/em.svg);
+		width: 24px;
+		height: 25px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-right: 20px;
+	}
+}
+
 .add {
 	padding-top: 91px;
 }
@@ -82,4 +104,11 @@
 
 .svg-flex {
 	transform: translateX(25%);
+}
+.foot-img {
+	height: 32px;
+}
+.soc {
+	margin-top: 30px;
+	display: flex;
 }
