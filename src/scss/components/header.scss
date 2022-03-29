@@ -24,6 +24,7 @@
 
 		.nav-list {
 			display: flex;
+
 			.link-items {
 				margin-left: 57px;
 				&:first-child {
@@ -41,6 +42,61 @@
 				border-radius: 42px;
 				padding: 17px 20px;
 			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.nav-container {
+		position: relative;
+	}
+	.menu-button {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-container {
+		padding-bottom: 0;
+	}
+	.menu-button {
+		padding: 0;
+		margin: 0;
+		display: inline-flex;
+		border: none;
+		background-color: transparent;
+		&.is-open {
+			.icon-cross {
+				display: block;
+			}
+			&.is-open {
+				.icon-burger {
+					display: none;
+				}
+			}
+		}
+		.icon-cross {
+			display: none;
+		}
+	}
+	.sprite {
+		height: 24px;
+		width: 24px;
+	}
+	.nav-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: white;
+		width: 100%;
+		&.is-open {
+			display: block !important;
+		}
+		.nav-list {
+			display: block !important;
+			text-align: center;
+
+			padding-bottom: 25px;
 		}
 	}
 }

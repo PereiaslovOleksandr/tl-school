@@ -9,7 +9,6 @@
 .text-sec2 {
 	display: grid;
 	justify-content: end;
-	padding-top: 40px;
 
 	padding-right: 40px;
 
@@ -35,7 +34,7 @@
 	.p2-sec2 {
 		padding-top: 35px;
 		padding-left: 210px;
-
+		padding-bottom: 20px;
 		margin: 0;
 		font-family: "Montserrat";
 		font-style: normal;
@@ -62,7 +61,7 @@
 		width: 100%;
 
 		background: #f9f9f9;
-		box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
 		padding-left: 40px;
 		padding-right: 40px;
@@ -137,15 +136,17 @@
 .buy-section-top {
 	position: relative;
 	top: -135px;
+	height: 495px;
 }
 .buy-section-mid {
-	top: 16px;
+	height: 452px;
+	top: -43px;
 	position: relative;
 }
 .buy-section-bottom {
 	position: relative;
-	position: relative;
-	top: 144px;
+
+	top: 0;
 }
 .btn1 {
 	padding-top: 83px;

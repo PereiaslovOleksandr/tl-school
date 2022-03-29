@@ -10,11 +10,38 @@
 }
 
 .container {
-	width: 1216px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 
-	/* outline: 2px solid #ff7518; */
+	// outline: 2px solid #ff7518;
+}
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+		overflow: hidden;
+	}
+}
+@media (max-width: 992px) {
+	.container {
+		overflow-x: hidden;
+		width: 100%;
+		max-width: 991px;
+	}
+}
+@media (max-width: 597px) {
+	.container {
+		max-width: none;
+		overflow-x: hidden;
+		max-width: 524px;
+	}
+}
+@media (max-width: 596px) {
+	.container {
+		max-width: none;
+		overflow-x: hidden;
+		max-width: 440px;
+	}
 }
 
 section {

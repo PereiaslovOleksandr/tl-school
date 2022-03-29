@@ -66,13 +66,58 @@
 				font-style: normal;
 				font-weight: 500;
 				font-size: 24px;
-				line-height: 29px;
+
 				text-align: center;
 				color: #4d4d4d;
 			}
 		}
 	}
 }
-
+@media (min-width: 992px) {
+	.adap-hero {
+		display: none;
+	}
+	.swiper-container {
+		display: none;
+	}
+}
 @media (max-width: 991px) {
+	.section-hero {
+		background-image: none;
+		.tittle-hero {
+			margin-top: 0;
+			padding-top: 60px;
+		}
+		.adap-hero {
+			width: 100%;
+		}
+		.a-hero {
+			display: block;
+			margin-bottom: 16px;
+		}
+	}
+	.visibiliti {
+		display: none !important;
+	}
+	.description-school {
+		padding-top: 72px !important;
+
+		.description-items {
+			margin: 0 !important;
+			.p-descriprion {
+				font-size: 14px !important;
+			}
+		}
+	}
+	.sliderhero {
+		margin: 0 auto;
+		width: 1000px;
+		overflow-x: hidden;
+		.slider-items {
+			margin-left: 30px;
+			.sec1slider {
+				width: 50%;
+			}
+		}
+	}
 }

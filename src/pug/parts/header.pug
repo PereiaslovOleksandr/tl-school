@@ -2,7 +2,11 @@ header.page-header
 	div.container
 		div.nav-container
 			img.logo(src="images/common/logo.svg", alt="логотип")
-			nav.nav-menu
+			button.menu-button(type='button' aria-expanded='false' aria-controls='menu-container' data-menu-button='')
+				svg.sprite
+					use.icon-burger(xlink:href="images/sprites/sprite-multi.svg#burger"  )
+					use.icon-cross(xlink:href="images/sprites/sprite-multi.svg#cross" )
+			nav.nav-menu#menu-container(data-menu='')
 				ul.nav-list
 					a.link-items(href="")
 						li.list-items Головна
