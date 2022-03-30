@@ -84,10 +84,20 @@
 @media (max-width: 991px) {
 	.section-hero {
 		background-image: none;
+		margin-bottom: 0;
 		.tittle-hero {
 			margin-top: 0;
-			padding-top: 60px;
+			padding-top: 50px;
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 28px;
 		}
+		.p-hero {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+		}
+
 		.adap-hero {
 			width: 100%;
 		}
@@ -100,7 +110,7 @@
 		display: none !important;
 	}
 	.description-school {
-		padding-top: 72px !important;
+		padding-top: 20px !important;
 
 		.description-items {
 			margin: 0 !important;
@@ -108,16 +118,50 @@
 				font-size: 14px !important;
 			}
 		}
+		.description-list {
+			padding-bottom: 40px;
+		}
 	}
 	.sliderhero {
 		margin: 0 auto;
 		width: 1000px;
-		overflow-x: hidden;
+		overflow: hidden;
 		.slider-items {
 			margin-left: 30px;
-			.sec1slider {
-				width: 50%;
+		}
+		.slick-dots {
+			display: flex;
+			justify-content: center;
+			margin: 0;
+			padding: 1rem 0;
+			display: flex;
+			position: absolute;
+			top: 65%;
+			left: 45%;
+
+			list-style-type: none;
+			li {
+				margin: 0 0.25rem;
 			}
+			button {
+				display: block;
+				width: 1rem;
+				height: 1rem;
+				padding: 0;
+
+				border: none;
+				border-radius: 100%;
+				background-color: orange;
+
+				text-indent: -9999px;
+			}
+		}
+	}
+	.btn-hero {
+		padding-top: 6px;
+		.a-hero {
+			font-size: 14px;
+			padding: 10px 41px;
 		}
 	}
 }

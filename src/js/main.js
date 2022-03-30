@@ -39,10 +39,11 @@ document.body.style.paddingTop = `${pageHeaderHeight}px`;
 
 $(".sliderhero").slick({
 	infinite: true,
+	dots: true, // Adds the dots on the bottom
 	slidesToShow: 2, // Shows a three slides at a time
 	slidesToScroll: 3, // When you click an arrow, it scrolls 1 slide at a time
 	arrows: false, // Adds arrows to sides of slider
-	dots: false, // Adds the dots on the bottom
+
 	autoplay: true,
 	autoplaySpeed: 4500,
 });
@@ -50,7 +51,27 @@ $(".sliderhero").slick({
 $(".slider").slick({
 	slidesToShow: 2,
 	slidesToScroll: 1,
-	autoplay: true,
+	autoplay: false,
 	autoplaySpeed: 4500,
 	arrows: false,
+	dots: true,
+});
+
+$(".slider-sec2").slick({
+	infinite: true,
+	// Adds the dots on the bottom
+	slidesToShow: 1, // Shows a three slides at a time
+	slidesToScroll: 2, // When you click an arrow, it scrolls 1 slide at a time
+	arrows: false, // Adds arrows to sides of slider
+	centerMode: true,
+	autoplay: true,
+	autoplaySpeed: 31500,
+});
+
+$(".helpslide").slick({
+	infinite: true,
+	dots: true, // Adds the dots on the bottom
+	slidesToShow: 1, // Shows a three slides at a time
+	slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+	arrows: false, // Adds arrows to sides of slider
 });
