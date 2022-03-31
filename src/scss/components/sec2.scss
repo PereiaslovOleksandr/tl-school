@@ -225,3 +225,9 @@
 		height: 405px;
 	}
 }
+
+@media (min-width: 992px) {
+	.slider-sec2 {
+		display: none !important;
+	}
+}

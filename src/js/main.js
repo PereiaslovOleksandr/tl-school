@@ -65,7 +65,7 @@ $(".slider-sec2").slick({
 	arrows: false, // Adds arrows to sides of slider
 	centerMode: true,
 	autoplay: true,
-	autoplaySpeed: 31500,
+	autoplaySpeed: 4500,
 });
 
 $(".helpslide").slick({
@@ -74,4 +74,17 @@ $(".helpslide").slick({
 	slidesToShow: 1, // Shows a three slides at a time
 	slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
 	arrows: false, // Adds arrows to sides of slider
+	autoplay: true,
+	autoplaySpeed: 4500,
+});
+
+$(".slidersec5").slick({
+	infinite: true,
+	dots: true, // Adds the dots on the bottom
+	slidesToShow: 1, // Shows a three slides at a time
+	slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+	arrows: false, // Adds arrows to sides of slider
+
+	autoplay: true,
+	autoplaySpeed: 4500,
 });

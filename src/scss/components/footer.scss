@@ -1,6 +1,6 @@
 .footer-color {
 	background-color: #171650;
-	height: 535px;
+	padding-bottom: 40px;
 	color: white;
 }
 
@@ -110,4 +110,51 @@
 .soc {
 	margin-top: 30px;
 	display: flex;
+}
+
+@media (max-width: 991px) {
+	.footer-add {
+		display: block !important;
+		padding-top: 36px;
+		.add {
+			margin: 0;
+			padding: 0;
+			.soc {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0;
+				margin: 0;
+				padding-bottom: 26px;
+			}
+		}
+		.contact {
+			padding: 0;
+			padding-bottom: 32px;
+			padding-top: 20px;
+		}
+	}
+	.text-add {
+		margin-bottom: 0;
+		padding-bottom: 43px;
+	}
+	.footer-logo {
+		margin: 0;
+		margin-left: 190px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		width: 60px;
+		height: 60px;
+		display: block;
+	}
+	.item-company {
+		padding-top: 0;
+		font-size: 12px;
+		line-height: 15px;
+		/* identical to box height */
+
+		color: #e1dfdf;
+	}
 }
